@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/wedding-website/static/css/main.d1b05096.chunk.css",
-    "main.js": "/wedding-website/static/js/main.fd4a54b0.chunk.js",
-    "main.js.map": "/wedding-website/static/js/main.fd4a54b0.chunk.js.map",
+    "main.css": "/wedding-website/static/css/main.5491ab51.chunk.css",
+    "main.js": "/wedding-website/static/js/main.6d1a7eda.chunk.js",
+    "main.js.map": "/wedding-website/static/js/main.6d1a7eda.chunk.js.map",
     "runtime-main.js": "/wedding-website/static/js/runtime-main.67162485.js",
     "runtime-main.js.map": "/wedding-website/static/js/runtime-main.67162485.js.map",
-    "static/js/2.bad77509.chunk.js": "/wedding-website/static/js/2.bad77509.chunk.js",
-    "static/js/2.bad77509.chunk.js.map": "/wedding-website/static/js/2.bad77509.chunk.js.map",
+    "static/css/2.5bc4965f.chunk.css": "/wedding-website/static/css/2.5bc4965f.chunk.css",
+    "static/js/2.7773d70c.chunk.js": "/wedding-website/static/js/2.7773d70c.chunk.js",
+    "static/js/2.7773d70c.chunk.js.map": "/wedding-website/static/js/2.7773d70c.chunk.js.map",
     "index.html": "/wedding-website/index.html",
-    "precache-manifest.0e4610eaf5a44bbfe67b8c352b27b250.js": "/wedding-website/precache-manifest.0e4610eaf5a44bbfe67b8c352b27b250.js",
+    "precache-manifest.141decbc54539f49aa55ad0b1b1e1fd2.js": "/wedding-website/precache-manifest.141decbc54539f49aa55ad0b1b1e1fd2.js",
     "service-worker.js": "/wedding-website/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/wedding-website/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.bad77509.chunk.js.LICENSE.txt": "/wedding-website/static/js/2.bad77509.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/wedding-website/static/media/logo.5d5d9eef.svg"
+    "static/css/2.5bc4965f.chunk.css.map": "/wedding-website/static/css/2.5bc4965f.chunk.css.map",
+    "static/css/main.5491ab51.chunk.css.map": "/wedding-website/static/css/main.5491ab51.chunk.css.map",
+    "static/js/2.7773d70c.chunk.js.LICENSE.txt": "/wedding-website/static/js/2.7773d70c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.67162485.js",
-    "static/js/2.bad77509.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.fd4a54b0.chunk.js"
+    "static/css/2.5bc4965f.chunk.css",
+    "static/js/2.7773d70c.chunk.js",
+    "static/css/main.5491ab51.chunk.css",
+    "static/js/main.6d1a7eda.chunk.js"
   ]
 }
