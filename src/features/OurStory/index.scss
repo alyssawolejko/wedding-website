@@ -1,0 +1,29 @@
+@import '../../shared/colors.scss';
+
+.loveMap {
+  display: flex;
+  margin-top: 400px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  &__container {
+    width: 33%;
+    @media (max-width: 720px) {
+      width: 90%
+    }
+    &__item { 
+      width: 90%;
+      height: 350px;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-position: center 70%;
+      background-size: cover;
+      margin: auto;
+    }
+    p {
+      color: $dustyBlue1;
+      text-align: center;
+    }
+  }
+}
