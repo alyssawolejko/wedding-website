@@ -7,14 +7,20 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
+  @media (max-width: 600px) {
+    margin-top: 15vh;
+    flex-direction: column;
+  }
   &__container {
     width: 33%;
     @media (max-width: 720px) {
       width: 90%
+
     }
     &__item { 
       width: 90%;
-      height: 350px;
+      max-height: 250px;
+      height: 250px;
       border-radius: 20px;
       background-repeat: no-repeat;
       background-position: center 70%;

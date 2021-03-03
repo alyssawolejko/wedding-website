@@ -44,10 +44,8 @@ export default () => {
             <div 
               className='loveMap__container__item' 
               style={{ backgroundImage: `url(${active ? hoverImage : image})` }}
-              onMouseLeave={() => setState(loveMap)}
-              onMouseOver={() => changeBackground(title)}>
+            >            
             </div>
-            <div class="overlay"></div>
           </div>
         </div>
       ))}

@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import _ from 'lodash'
+import { IoMenu, IoClose } from "react-icons/io5";
+
 import {
   NavLink
 } from "react-router-dom"
@@ -29,12 +31,25 @@ const ROUTES = [
 ]
 
 
-export default () => (
-  <div className="navigation">
-    {_.map(ROUTES, r => (
-      <div key={r.label} className='navigation__item'>
-        <NavLink to={r.route}>{r.label}</NavLink>
+export default () => {
+  const [menuOpen, toggleMenu] = useState(false);
+
+  return (
+    <div className={`navigation ${menuOpen ? 'menu-open': ''} `}>
+      <div key="mobile-menu" className='mobile-menu-icon'>
+        {menuOpen ? (
+          <IoClose color="white" size={30} onClick={() => toggleMenu(!menuOpen)}/>
+        ) : (
+          <IoMenu color="white" size={30} onClick={() => toggleMenu(!menuOpen)}/>
+        )}
       </div>
-    ))}
-  </div>
-)
+      <div className="navigation__route-container" style={menuOpen ? { display: 'flex' } : {}}>
+        {_.map(ROUTES, r => (
+          <div key={r.label} className='navigation__item'>
+            <NavLink to={r.route}>{r.label}</NavLink>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}

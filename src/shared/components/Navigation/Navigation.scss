@@ -2,19 +2,50 @@
 
 .navigation{
   position: fixed;
-  display: flex;
-  background-color: $navBackground;
-  padding: 20px;
-  justify-content: center;
   width: 100%;
   z-index: 3;
-  &__item{
+  height: 75px;
+  background-color: $navBackground;
+  @media (max-width: 600px){
+    background: none;
+    &.menu-open{
+      background-color: rgba(136, 161, 177, 1);
+    }
+  }
+  &__route-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    @media (max-width: 600px) {
+      flex-direction: column;
+      display: none;
+    }
+  }
+  .navigation__item{
     padding: 0 30px;
     font-weight: 400;
     font-size: 1.2em;
     a {
       color: white;
       text-decoration: none;
+    }
+  }
+  .mobile-menu-icon {
+    display: none;
+  }
+  @media (max-width: 600px) {
+    padding: 5px;
+    height: 100%;
+    .navigation__item{
+      padding: 0px;
+      padding-bottom: 10px;
+      text-align: center;
+      font-size: 3em;
+    }
+    .mobile-menu-icon {
+      display: block;
+      text-align: right;
+      padding-right: 20px;
     }
   }
 }

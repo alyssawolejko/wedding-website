@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "screens/*": ["src/screens/*"],
+      "shared/*": ["src/shared/*"],
+      "assets/*": ["src/assets/*"],
+      "features/*": ["src/features/*"],
+      "utils/*": ["src/utils/*"],
+    }
+  },
+  "exclude": ["node_modules"]
+}

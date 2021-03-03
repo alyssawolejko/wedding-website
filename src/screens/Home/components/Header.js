@@ -9,7 +9,7 @@ export default () => (
       <div className="header__c-featured__img-circle">
         <img src={ProfileImage} alt='Profile image' style={{ width: '100%', resizeMode: 'contain' }} />
       </div>
-      <h1 className="header__c-featured__title">{`Alyssa & Chris`}</h1>
+      <PageHeader title={'Chris and Alyssa'}/>
       <h4 className="header__c-featured__title">{`September 4th, 2021`}</h4>
     </div>
   </div>
